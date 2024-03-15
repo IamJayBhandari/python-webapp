@@ -22,7 +22,7 @@ def shutdown_server():
 def main():
     if not FROZEN:
         # return 'Hello'
-        return render_template('hello.html', name=socket.gethostname(), color='#000000')
+        return render_template('hello.html', name=socket.gethostname(), color='#Ffff00')
 
 
 @app.route("/hostname")
